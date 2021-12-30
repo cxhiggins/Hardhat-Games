@@ -14,3 +14,5 @@ To deploy the contracts, I modified `deploy.js` by changing the `gameNumber` acc
 ## Solutions
 
 My solutions are written in `scripts/win.js` as functions `game1Solution`, `game2Solution`, etc.
+
+One resource which was of particular use for game 4 was the [Solidity Assembly documentation](https://docs.soliditylang.org/en/v0.4.24/assembly.html), which explains opcodes `sstore` and `sload`.
